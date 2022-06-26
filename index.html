@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="icon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Cosmos</title>
+
+    <!-- font awsome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section start page -->
+    <section id="header" class="header">
+      <a href="#" class="logo">
+        <titleicon> <img src="icon\favicon-32x32.png" /> COSMOS </titleicon></a
+      >
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#shop">Shop</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#message">Message</a>
+        <a href="#blog">Blog</a>
+      </nav>
+
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+      </div>
+    </section>
+
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+      <div
+        class="slide active"
+        style="
+          background: url(img/home-bg-1.jpeg) no-repeat;
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <div class="content">
+          <span>
+            <homecolor-head>
+              forever <br />
+              unique
+            </homecolor-head>
+          </span>
+          <h3>
+            <homecolor>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
+              sed do eiusmod tempor farhan ut labore et dolore magna aliqua.<br />
+              Lorem, ipsum dolor
+            </homecolor>
+          </h3>
+          <a href="#gallery" class="btn">read more</a>
+        </div>
+      </div>
+
+      <div
+        class="slide"
+        style="
+          background: url(img/home-bg-2.jpeg) no-repeat;
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <div class="content">
+          <span
+            >forever <br />
+            young</span
+          >
+          <h3>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
+            sed do eiusmod tempor farhan ut labore et dolore magna aliqua.<br />
+            Lorem, ipsum dolor
+          </h3>
+          <a href="#shop" class="btn"> <page2> read more </page2> </a>
+        </div>
+      </div>
+
+      <div
+        class="slide"
+        style="
+          background: url(img/home-bg-3.jpg) no-repeat;
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <div class="content">
+          <span
+            >forever <br />
+            beautiful</span
+          >
+          <h3>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
+            sed do eiusmod tempor farhan ut labore et dolore magna aliqua.<br />
+            Lorem, ipsum dolor
+          </h3>
+          <a href="#blog" class="btn">read more</a>
+        </div>
+      </div>
+
+      <div id="next-slide" onclick="next()" class="fas fa-angle-right"></div>
+      <div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- category section starts -->
+
+    <section class="category">
+      <div class="box-container">
+        <a href="#shop" class="box">
+          <img src="img/category-1.png" />
+          <h3>skincare</h3>
+        </a>
+
+        <a href="#shop" class="box">
+          <img src="img/category-2.png" />
+          <h3>lips</h3>
+        </a>
+
+        <a href="#shop" class="box">
+          <img src="img/category-3.png" />
+          <h3>hair</h3>
+        </a>
+
+        <a href="#shop" class="box">
+          <img src="img/category-4.png" />
+          <h3>eye</h3>
+        </a>
+
+        <a href="#shop" class="box">
+          <img src="img/category-5.png" />
+          <h3>makeup</h3>
+        </a>
+
+        <a href="#shop" class="box">
+          <img src="img/category-6.png" />
+          <h3>fragrance</h3>
+        </a>
+      </div>
+    </section>
+    <!-- category section ends -->
+
+    <!-- about section starts -->
+
+    <section class="about" id="about">
+      <div class="img">
+        <img src="img/about-img.jpg" alt="" />
+      </div>
+      <div class="content">
+        <div class="box">
+          <h3><span>About</span></h3>
+          <p>
+            <lowercase class="darktext">
+              The philosophy of Cosmos is to provide every person with their own
+              distinct version of beauty. Forever Unique. Forever Young. Forever
+              beautiful. Explore products now and get started on highlighting
+              your natural beauty. Or, check out our blog to learn more.
+            </lowercase>
+          </p>
+          <a href="#blog" class="btn">read more</a>
+        </div>
+        <div class="icons-container">
+          <div class="icons">
+            <i class="fas fa-address-card"></i>
+            <p>address card</p>
+          </div>
+          <div class="icons">
+            <i class="fas fa-award"></i>
+            <p>awards</p>
+          </div>
+          <div class="icons">
+            <i class="fas fa-gift"></i>
+            <p>gift cards</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- shop section starts -->
+
+    <section class="shop" id="shop">
+      <h1 class="heading"><span>Shop</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="img">
+            <img src="img/product-1.jpg" />
+            <div class="icons">
+              <a href="#gallery" class="fas fa-eye"></a>
+              <a href="#0" class="fas fa-heart"></a>
+              <a href="#message" class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>airbrush matte</h3>
+            <div class="price">$119.99<span>$200.99</span></div>
+            <a href="#0" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img src="img/product-2.jpg" />
+            <div class="icons">
+              <a href="#gallery" class="fas fa-eye"></a>
+              <a href="#0" class="fas fa-heart"></a>
+              <a href="#message" class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>lactic acid treatment</h3>
+            <div class="price">$48.00<span>$59.99</span></div>
+            <a href="#0" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img src="img/product-3.jpg" />
+            <div class="icons">
+              <a href="#gallery" class="fas fa-eye"></a>
+              <a href="#0" class="fas fa-heart"></a>
+              <a href="#message" class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>midnight must</h3>
+            <div class="price">$40.99<span>$99.99</span></div>
+            <a href="#0" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img src="img/product-4.jpg" />
+            <div class="icons">
+              <a href="#gallery" class="fas fa-eye"></a>
+              <a href="#0" class="fas fa-heart"></a>
+              <a href="#message" class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>face & body foundation</h3>
+            <div class="price"><span>$40.00</span></div>
+            <a href="#0" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img src="img/product-5.jpg" />
+            <div class="icons">
+              <a href="#gallery" class="fas fa-eye"></a>
+              <a href="#0" class="fas fa-heart"></a>
+              <a href="#message" class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>eyeliner pack</h3>
+            <div class="price">24.99<span>49.99</span></div>
+            <a href="#0" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img src="img/product-6.jpg" />
+            <div class="icons">
+              <a href="#gallery" class="fas fa-eye"></a>
+              <a href="#0" class="fas fa-heart"></a>
+              <a href="#message" class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>moisture balm</h3>
+            <div class="price">$10.99<span>$29.99</span></div>
+            <a href="#0" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- shop section ends -->
+
+    <!-- banner section starts -->
+
+    <section class="banner">
+      <div class="content">
+        <span>special <span>offers</span></span>
+        <h3>Up <lowercase> to</lowercase> 50% off</h3>
+        <p>
+          <lowercase class="darktext">
+            Select products available at discount prices. Enjoy our finest
+            merchandise at 20%, 35%, and even 50% off!
+          </lowercase>
+        </p>
+        <a href="#shop" class="btn">shop now</a>
+      </div>
+    </section>
+
+    <!-- banner section ends -->
+
+    <!-- gallery section starts -->
+
+    <section class="gallery" id="gallery">
+      <h1 class="heading"><span>Gallery</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="img/gallery-img-1.jpeg" />
+          <div class="content">
+            <h3>face</h3>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <a href="#blog" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/gallery-img-2.jpeg" />
+          <div class="content">
+            <h3>eyes</h3>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <a href="#blog" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/gallery-img-3.jpeg" />
+          <div class="content">
+            <h3>lips</h3>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <a href="#blog" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/gallery-img-4.jpeg" />
+          <div class="content">
+            <h3>hair</h3>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <a href="#blog" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/gallery-img-5.jpeg" />
+          <div class="content">
+            <h3>make up</h3>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <a href="#blog" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/gallery-img-6.jpeg" />
+          <div class="content">
+            <h3>skin care</h3>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <a href="#blog" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- gallery section ends -->
+
+    <!-- message section starts -->
+    <section class="message" id="message">
+      <form action="#0">
+        <h3>Get <lowercase> in </lowercase> <span>Touch</span></h3>
+        <input type="text" placeholder="Name" class="box" />
+        <input type="email" placeholder="Email" class="box" />
+        <input type="number" placeholder="Phone" class="box" />
+        <textarea
+          placeholder="Message"
+          class="box"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <input type="submit" value="send message" class="btn" />
+      </form>
+    </section>
+
+    <!-- message section ends -->
+
+    <!-- blog section starts -->
+
+    <section class="blog" id="blog">
+      <h1 class="heading">Daily <span>Blog</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="img">
+            <img src="img/blog-1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="date">
+              <h3>12</h3>
+              <span>jan</span>
+            </div>
+            <a href="#message" class="user"
+              ><i class="fas fa-user"></i> by admin</a
+            >
+            <a href="#0" class="title"> blog title goes here...</a>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <a href="#about" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img src="img/blog-2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="date">
+              <h3>19</h3>
+              <span>feb</span>
+            </div>
+            <a href="#message" class="user"
+              ><i class="fas fa-user"></i> by admin</a
+            >
+            <a href="#0" class="title"> blog title goes here...</a>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <a href="#about" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img src="img/blog-3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="date">
+              <h3>02</h3>
+              <span>Aug</span>
+            </div>
+            <a href="#message" class="user"
+              ><i class="fas fa-user"></i> by admin</a
+            >
+            <a href="#0" class="title"> blog title goes here...</a>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <a href="#about" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog section ends -->
+
+    <!-- services section starts -->
+
+    <section class="services">
+      <div class="box">
+        <img src="img/icon-1.png" alt="" />
+        <h3>free delivery</h3>
+        <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      </div>
+
+      <div class="box">
+        <img src="img/icon-2.png" alt="" />
+        <h3>secure payments</h3>
+        <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      </div>
+
+      <div class="box">
+        <img src="img/icon-3.png" alt="" />
+        <h3>24/7 support</h3>
+        <p>lorem ipsum dolor sit amet, consectetur adip</p>
+      </div>
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>quick links</h3>
+          <a class="link" href="#home">
+            <i class="fas fa-angle-right"></i> home</a
+          >
+          <a class="link" href="#about">
+            <i class="fas fa-angle-right"></i> about</a
+          >
+          <a class="link" href="#shop">
+            <i class="fas fa-angle-right"></i> shop</a
+          >
+          <a class="link" href="#gallery">
+            <i class="fas fa-angle-right"></i> gallery</a
+          >
+          <a class="link" href="#message">
+            <i class="fas fa-angle-right"></i> message</a
+          >
+          <a class="link" href="#blog">
+            <i class="fas fa-angle-right"></i> blog</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>extra links</h3>
+          <a class="link" href="#0">
+            <i class="fas fa-angle-right"></i> my favorites
+          </a>
+          <a class="link" href="#0">
+            <i class="fas fa-angle-right"></i> my order
+          </a>
+          <a class="link" href="#0">
+            <i class="fas fa-angle-right"></i> my wishlist
+          </a>
+          <a class="link" href="#0">
+            <i class="fas fa-angle-right"></i> private policy
+          </a>
+          <a class="link" href="#0">
+            <i class="fas fa-angle-right"></i> terms
+            <lowercase>of</lowercase> use
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a class="link" href="#">
+            <i class="fas fa-phone"></i> +123-456-7890
+          </a>
+          <a class="link" href="#">
+            <i class="fas fa-phone"></i> +111-222-3333
+          </a>
+          <a class="link" href="#">
+            <i class="fas fa-envelope"></i> shaikhfarhan@gmail.com
+          </a>
+          <a class="link" href="#">
+            <i class="fas fa-map"></i> mumbai, india - 401203
+          </a>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <form action="#0">
+            <input
+              type="email"
+              name=""
+              placeholder="enter your email"
+              id=""
+              class="email"
+            />
+            <input type="submit" value="subscribe" class="btn" />
+          </form>
+        </div>
+      </div>
+
+      <div class="note">
+        <p><lowercase> Thank you for Shopping! </lowercase></p>
+      </div>
+      <div class="signature">Copyright © 2022 COSMOS. all rights reserved</div>
+    </section>
+
+    <!-- custom js file link -->
+    <script src="app.js"></script>
+  </body>
+</html>

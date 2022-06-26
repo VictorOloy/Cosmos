@@ -1,0 +1,23 @@
+Change title icon --
+Adjust colours --
+change icon --
+make text darker in Home section --  
+Replace links that lead to the top of the page --
+change prices in shop section --
+Remove "Our" from section titles --
+Add specific text to blog and about section ~
+Adjust contact info and icon links
+Replace dummy text (Home, Gallery, Blog) ~
+Replace comments in html
+Adjust Capitalization
+Adjust font colours ~
+
+
+make "add to cart" in shop section highlight cart
+make heart button in shop section highlight heart
+make "my favorites" in extra links highlight heart
+make "my order" in extra links highlight cart
+
+
+Change send messsage to "thank you" on click
+Change subscribe message to "thank you" on click
