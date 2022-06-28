@@ -17,7 +17,7 @@ lowercase {
 }
 
 homecolor {
-  color: rgb(83, 83, 83);
+  color: rgb(68, 68, 68);
 }
 homecolor-head {
   color: rgb(83, 83, 83);
@@ -30,12 +30,6 @@ homecolor-head {
 }
 homecolor-head:hover {
   color: #f08080;
-}
-
-page2:hover {
-  letter-spacing: 0.1rem;
-  background: #f08080;
-  color: #fff;
 }
 
 html {
@@ -84,8 +78,20 @@ titleicon:hover {
   font-size: 1.7rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
   cursor: pointer;
+  content: icon;
 }
-.btn:hover {
+.btn2 {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  color: rgb(250, 250, 250);
+  font-size: 1.7rem;
+  box-shadow: 0 0.5rem 1rem rgba(131, 131, 131, 0.7);
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn2:hover {
   letter-spacing: 0.1rem;
   background: #f08080;
   color: #fff;
@@ -188,7 +194,8 @@ titleicon:hover {
   letter-spacing: 0.1rem;
   font-weight: normal;
 }
-.home .slide .content .btn {
+.home .slide .content .btn,
+.home .slide .content .btn2 {
   animation: fadeIn 0.2s linear backwards 0.6s;
 }
 .home #next-slide,
@@ -443,10 +450,10 @@ titleicon:hover {
   line-height: 2;
   animation: fadeIn 0.2s linear backwards 0.4s;
 }
-.gallery .box-container .box .content .btn {
+.gallery .box-container .box .content .btn,
+.gallery .box-container .box .content .btn2 {
   animation: fadeIn 0.2s linear backwards 0.6s;
 }
-
 .message {
   background: url(img/message-bg.png) no-repeat;
   background-size: cover;
@@ -548,7 +555,8 @@ titleicon:hover {
   font-size: 2rem;
   color: #222;
 }
-.blog .box-container .box .content .title:hover {
+.blog .box-container .box .content .title:hover,
+.blog .box-container .box .content .title:hover blogtext {
   color: #f08080;
 }
 .blog .box-container .box .content p {
@@ -556,6 +564,11 @@ titleicon:hover {
   line-height: 2;
   color: #666;
   font-size: 1.4rem;
+}
+
+blogtext {
+  text-transform: none;
+  color: rgb(32, 32, 32);
 }
 
 .services {
@@ -626,6 +639,7 @@ titleicon:hover {
   color: #fff;
   background: #f08080;
 }
+
 .footer .box-container .box p {
   padding: 1rem 0;
   font-size: 1.7rem;
@@ -640,6 +654,11 @@ titleicon:hover {
   margin: 1rem 0;
   font-size: 1.6rem;
 }
+
+linktext {
+  color: #222;
+}
+
 .footer .note {
   text-align: center;
   padding: 1rem;

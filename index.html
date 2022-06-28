@@ -4,37 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="icon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="icon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="icon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="/site.webmanifest" />
-    <title>Cosmos</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="icon\favicon.ico">
+    <title>  Cosmos</title>
 
-    <!-- font awsome cdn link -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-    <!-- custom css file link -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- header section start page -->
+    <!-- Header -->
     <section id="header" class="header">
       <a href="#" class="logo">
         <titleicon> <img src="icon\favicon-32x32.png" /> COSMOS </titleicon></a
@@ -55,9 +41,9 @@
       </div>
     </section>
 
-    <!-- header section ends -->
+    <!--  End Header -->
 
-    <!-- home section starts -->
+    <!-- Home -->
 
     <section class="home" id="home">
       <div
@@ -77,9 +63,12 @@
           </span>
           <h3>
             <homecolor>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
-              sed do eiusmod tempor farhan ut labore et dolore magna aliqua.<br />
-              Lorem, ipsum dolor
+              <lowercase>
+                Explore what emphasizes your unique looks <br />
+                and turn every aspect of your person into art. <br />
+                Silence doubt and become the best version <br />
+                of yourself
+              </lowercase>
             </homecolor>
           </h3>
           <a href="#gallery" class="btn">read more</a>
@@ -100,11 +89,15 @@
             young</span
           >
           <h3>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
-            sed do eiusmod tempor farhan ut labore et dolore magna aliqua.<br />
-            Lorem, ipsum dolor
+            <lowercase>
+              Peruse a plethora of products <br />
+              that keeps you lively. <br />
+              Find how you can turn the spell <br />
+              of aging into the <br />
+              Fountain of Youth!
+            </lowercase>
           </h3>
-          <a href="#shop" class="btn"> <page2> read more </page2> </a>
+          <a href="#shop" class="btn2"> read more </a>
         </div>
       </div>
 
@@ -117,14 +110,21 @@
         "
       >
         <div class="content">
-          <span
-            >forever <br />
-            beautiful</span
-          >
+          <span>
+            <homecolor-head>
+              forever <br />
+              beautiful
+            </homecolor-head>
+          </span>
+
           <h3>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
-            sed do eiusmod tempor farhan ut labore et dolore magna aliqua.<br />
-            Lorem, ipsum dolor
+            <homecolor>
+              <lowercase>
+             Channel your inner beauty and express it outwardly. <br>
+             No matter your complextion, there is something special <br>
+             waiting for you.
+              <lowercase>
+            </homecolor>
           </h3>
           <a href="#blog" class="btn">read more</a>
         </div>
@@ -134,9 +134,9 @@
       <div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
     </section>
 
-    <!-- home section ends -->
+    <!-- End Home -->
 
-    <!-- category section starts -->
+    <!-- Categories -->
 
     <section class="category">
       <div class="box-container">
@@ -171,9 +171,9 @@
         </a>
       </div>
     </section>
-    <!-- category section ends -->
+    <!-- End Categories -->
 
-    <!-- about section starts -->
+    <!-- About -->
 
     <section class="about" id="about">
       <div class="img">
@@ -209,9 +209,9 @@
       </div>
     </section>
 
-    <!-- about section ends -->
+    <!-- End About -->
 
-    <!-- shop section starts -->
+    <!-- Shop -->
 
     <section class="shop" id="shop">
       <h1 class="heading"><span>Shop</span></h1>
@@ -228,7 +228,7 @@
           <div class="content">
             <h3>airbrush matte</h3>
             <div class="price">$119.99<span>$200.99</span></div>
-            <a href="#0" class="btn">add to cart</a>
+            <a href="#0" class="btn cart">add to cart</a>
           </div>
         </div>
 
@@ -244,7 +244,7 @@
           <div class="content">
             <h3>lactic acid treatment</h3>
             <div class="price">$48.00<span>$59.99</span></div>
-            <a href="#0" class="btn">add to cart</a>
+            <a href="#0" class="btn cart">add to cart</a>
           </div>
         </div>
 
@@ -260,7 +260,7 @@
           <div class="content">
             <h3>midnight must</h3>
             <div class="price">$40.99<span>$99.99</span></div>
-            <a href="#0" class="btn">add to cart</a>
+            <a href="#0" class="btn cart">add to cart</a>
           </div>
         </div>
 
@@ -275,8 +275,8 @@
           </div>
           <div class="content">
             <h3>face & body foundation</h3>
-            <div class="price"><span>$40.00</span></div>
-            <a href="#0" class="btn">add to cart</a>
+            <div class="price">$40.00</div>
+            <a href="#0" class="btn cart">add to cart</a>
           </div>
         </div>
 
@@ -292,7 +292,7 @@
           <div class="content">
             <h3>eyeliner pack</h3>
             <div class="price">24.99<span>49.99</span></div>
-            <a href="#0" class="btn">add to cart</a>
+            <a href="#0" class="btn cart">add to cart</a>
           </div>
         </div>
 
@@ -308,15 +308,15 @@
           <div class="content">
             <h3>moisture balm</h3>
             <div class="price">$10.99<span>$29.99</span></div>
-            <a href="#0" class="btn">add to cart</a>
+            <a href="#0" class="btn cart">add to cart</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- shop section ends -->
+    <!-- End Shop -->
 
-    <!-- banner section starts -->
+    <!-- Specials Banner -->
 
     <section class="banner">
       <div class="content">
@@ -332,9 +332,9 @@
       </div>
     </section>
 
-    <!-- banner section ends -->
+    <!-- End Specials Banner -->
 
-    <!-- gallery section starts -->
+    <!-- Gallery -->
 
     <section class="gallery" id="gallery">
       <h1 class="heading"><span>Gallery</span></h1>
@@ -343,7 +343,7 @@
           <img src="img/gallery-img-1.jpeg" />
           <div class="content">
             <h3>face</h3>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <p> <lowercase> First impressions are everything</lowercase> </p>
             <a href="#blog" class="btn">read more</a>
           </div>
         </div>
@@ -352,7 +352,7 @@
           <img src="img/gallery-img-2.jpeg" />
           <div class="content">
             <h3>eyes</h3>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <p><lowercase> Windows to the soul </lowercase></p>
             <a href="#blog" class="btn">read more</a>
           </div>
         </div>
@@ -361,7 +361,7 @@
           <img src="img/gallery-img-3.jpeg" />
           <div class="content">
             <h3>lips</h3>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <p><lowercase> Make a lasting impression</lowercase></p>
             <a href="#blog" class="btn">read more</a>
           </div>
         </div>
@@ -370,7 +370,7 @@
           <img src="img/gallery-img-4.jpeg" />
           <div class="content">
             <h3>hair</h3>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <p><lowercase>Let it flow, let it flow, let it flow </lowercase></p>
             <a href="#blog" class="btn">read more</a>
           </div>
         </div>
@@ -379,7 +379,7 @@
           <img src="img/gallery-img-5.jpeg" />
           <div class="content">
             <h3>make up</h3>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <p><lowercase> Make your mark </lowercase></p>
             <a href="#blog" class="btn">read more</a>
           </div>
         </div>
@@ -388,16 +388,16 @@
           <img src="img/gallery-img-6.jpeg" />
           <div class="content">
             <h3>skin care</h3>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <p><lowercase> A good day starts with good skin </lowercase></p>
             <a href="#blog" class="btn">read more</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- gallery section ends -->
+    <!-- End Gallery -->
 
-    <!-- message section starts -->
+    <!-- Message -->
     <section class="message" id="message">
       <form action="#0">
         <h3>Get <lowercase> in </lowercase> <span>Touch</span></h3>
@@ -414,9 +414,9 @@
       </form>
     </section>
 
-    <!-- message section ends -->
+    <!-- End Message -->
 
-    <!-- blog section starts -->
+    <!-- Blog -->
 
     <section class="blog" id="blog">
       <h1 class="heading">Daily <span>Blog</span></h1>
@@ -427,14 +427,14 @@
           </div>
           <div class="content">
             <div class="date">
-              <h3>12</h3>
-              <span>jan</span>
+              <h3>16</h3>
+              <span>jun</span>
             </div>
             <a href="#message" class="user"
-              ><i class="fas fa-user"></i> by admin</a
+              ><i class="fas fa-user"></i> <blogtext> by Dr. Doctor </blogtext></a
             >
-            <a href="#0" class="title"> blog title goes here...</a>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <a href="#0" class="title"> <blogtext> Caring for Sensitive Skin </blogtext> </a>
+            <p> <blogtext> Find out how to keep your skin soft and limit blemishes </blogtext> </p>
             <a href="#about" class="btn">read more</a>
           </div>
         </div>
@@ -445,14 +445,14 @@
           </div>
           <div class="content">
             <div class="date">
-              <h3>19</h3>
-              <span>feb</span>
+              <h3>1</h3>
+              <span>jun</span>
             </div>
             <a href="#message" class="user"
-              ><i class="fas fa-user"></i> by admin</a
+              ><i class="fas fa-user"></i> <blogtext> by COSMOS</blogtext> </a
             >
-            <a href="#0" class="title"> blog title goes here...</a>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <a href="#0" class="title"> Monthly Special </a>
+            <p> <blogtext> What's in this month's special box? Click read more to find out! </blogtext> </p>
             <a href="#about" class="btn">read more</a>
           </div>
         </div>
@@ -463,117 +463,121 @@
           </div>
           <div class="content">
             <div class="date">
-              <h3>02</h3>
-              <span>Aug</span>
+              <h3>30</h3>
+              <span>May</span>
             </div>
             <a href="#message" class="user"
-              ><i class="fas fa-user"></i> by admin</a
+              ><i class="fas fa-user"></i> <blogtext> by Ms. Doctor </blogtext></a
             >
-            <a href="#0" class="title"> blog title goes here...</a>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <a href="#0" class="title"> <blogtext> Fragrance in a Tiny Box </blogtext> </a>
+            <p> <blogtext> A frenzy of fragrant flavors to find your follicles feeling fresh </blogtext></p>
             <a href="#about" class="btn">read more</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- blog section ends -->
+    <!-- End Blog -->
 
-    <!-- services section starts -->
+    <!-- Services -->
 
     <section class="services">
       <div class="box">
         <img src="img/icon-1.png" alt="" />
         <h3>free delivery</h3>
-        <p>lorem ipsum dolor sit amet, consectetur adip</p>
+        <p> <lowercase> Free deliveries on eligible orders of at least $25.00 </lowercase> </p>
       </div>
 
       <div class="box">
         <img src="img/icon-2.png" alt="" />
         <h3>secure payments</h3>
-        <p>lorem ipsum dolor sit amet, consectetur adip</p>
+        <p> <lowercase> Your information is directed to a secured system and processed immediately </lowercase></p>
       </div>
 
       <div class="box">
         <img src="img/icon-3.png" alt="" />
         <h3>24/7 support</h3>
-        <p>lorem ipsum dolor sit amet, consectetur adip</p>
+        <p> <lowercase> Contact our dedicated support team by phone or email at any time </lowercase> </p>
       </div>
     </section>
 
-    <!-- services section ends -->
+    <!-- End Services -->
 
-    <!-- footer section starts -->
+    <!-- Footer -->
 
     <section class="footer">
       <div class="box-container">
         <div class="box">
           <h3>quick links</h3>
           <a class="link" href="#home">
-            <i class="fas fa-angle-right"></i> home</a
+            <i class="fas fa-angle-right"></i> <linktext> home</linktext></a
           >
           <a class="link" href="#about">
-            <i class="fas fa-angle-right"></i> about</a
+            <i class="fas fa-angle-right"></i> <linktext> about</linktext></a
           >
           <a class="link" href="#shop">
-            <i class="fas fa-angle-right"></i> shop</a
+            <i class="fas fa-angle-right"></i> <linktext> shop</linktext></a
           >
           <a class="link" href="#gallery">
-            <i class="fas fa-angle-right"></i> gallery</a
+            <i class="fas fa-angle-right"></i> <linktext> gallery</linktext></a
           >
           <a class="link" href="#message">
-            <i class="fas fa-angle-right"></i> message</a
+            <i class="fas fa-angle-right"></i> <linktext> message</linktext></a
           >
           <a class="link" href="#blog">
-            <i class="fas fa-angle-right"></i> blog</a
+            <i class="fas fa-angle-right"></i> <linktext> blog</linktext></a
           >
         </div>
 
         <div class="box">
           <h3>extra links</h3>
           <a class="link" href="#0">
-            <i class="fas fa-angle-right"></i> my favorites
+            <i class="fas fa-angle-right"></i
+            ><linktext> my favorites </linktext>
           </a>
           <a class="link" href="#0">
-            <i class="fas fa-angle-right"></i> my order
+            <i class="fas fa-angle-right"></i> <linktext>my order </linktext>
           </a>
           <a class="link" href="#0">
-            <i class="fas fa-angle-right"></i> my wishlist
+            <i class="fas fa-angle-right"></i> <linktext>my wishlist </linktext>
           </a>
           <a class="link" href="#0">
-            <i class="fas fa-angle-right"></i> private policy
+            <i class="fas fa-angle-right"></i>
+            <linktext>privacy policy </linktext>
           </a>
           <a class="link" href="#0">
-            <i class="fas fa-angle-right"></i> terms
-            <lowercase>of</lowercase> use
+            <i class="fas fa-angle-right"></i>
+            <linktext>terms <lowercase>of</lowercase> use </linktext>
           </a>
         </div>
 
         <div class="box">
           <h3>contact info</h3>
-          <a class="link" href="#">
-            <i class="fas fa-phone"></i> +123-456-7890
+          <a class="link" href="#0">
+            <i class="fas fa-address-card"></i> <linktext> Victor Oloyede </linktext>
           </a>
-          <a class="link" href="#">
-            <i class="fas fa-phone"></i> +111-222-3333
+          <a class="link" href="tel:469-734-1247">
+            <i class="fas fa-phone"></i> <linktext> +1 (469) 734-1247 </linktext>
           </a>
-          <a class="link" href="#">
-            <i class="fas fa-envelope"></i> shaikhfarhan@gmail.com
+          <a class="link" href="mailto:victorzemail@gmail.com">
+            <i class="fas fa-envelope"></i>
+            <linktext> <lowercase> victorzemail@gmail.com </lowercase> </linktext>
           </a>
-          <a class="link" href="#">
-            <i class="fas fa-map"></i> mumbai, india - 401203
+          <a class="link" href="#0">
+            <i class="fas fa-map"></i
+            ><linktext> Dallas, Texas </linktext>
           </a>
           <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-instagram"></a>
-            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fa-regular fa-folder"></a>
+            <a href="https://github.com/DexterMcgee" class="fab fa-github"></a>
+            <a href="Victor Oloyede_Resume.docx" class="fa-regular fa-file-word"></a>
+            <a href="mailto:victorzemail@gmail.com" class="fa-solid fa-at"></a>
           </div>
         </div>
 
         <div class="box">
           <h3>newsletter</h3>
-          <p>subscribe for latest updates</p>
+          <p>subscribe <lowercase> for </lowercase> latest updates</p>
           <form action="#0">
             <input
               type="email"
@@ -592,8 +596,6 @@
       </div>
       <div class="signature">Copyright © 2022 COSMOS. all rights reserved</div>
     </section>
-
-    <!-- custom js file link -->
     <script src="app.js"></script>
   </body>
 </html>
