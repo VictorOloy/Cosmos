@@ -1,11 +1,1 @@
-Change title icon --
-Adjust colours --
-change icon --
-make text darker in Home section --  
-Replace links that lead to the top of the page --
-change prices in shop section --
-Remove "Our" from section titles --
-Replace dummy text (Home, Gallery, Blog, About) --
-Adjust Capitalization --
-Adjust font colours --
-Change colour for page 2 read more --
+All Done :^)
